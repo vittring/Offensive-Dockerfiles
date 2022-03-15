@@ -13,8 +13,10 @@
 This repository contains a collection of security-oriented tools as Dockerfiles.  
 
 This makes it easy to deploy various mission dependent tools using common cloud providers (AWS, Azure, Linode..).
+  
+The official repository is read-only, I will continue development here.
 
-The containers are built using Docker. Each container is made to suit required dependencies for each tool.  
+  The containers are built using Docker. Each container is made to suit required dependencies for each tool.  
 </h5>
 
 ---
@@ -55,7 +57,7 @@ docker run -it sqlmap:latest --wizard
 | [nmap](https://nmap.org) + [Vulscan](https://github.com/scipag/vulscan) + [Vulners](https://github.com/vulnersCom/nmap-vulners) scripts  	| Latest Nmap Scripting Engine (NSE) modules, as well as the Vulscan NSE script and the vulners API to NSE script. 	|
 | [sqlmap](https://github.com/sqlmapproject/sqlmap) 	| Automatic SQL injection and database takeover tool 	|
 | [dcrawl](https://github.com/kgretzky/dcrawl) 	| Simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names. 	|
-| [V3n0m Scanner](https://github.com/v3n0m-Scanner/V3n0M-Scanner) 	| Popular Pentesting scanner in Python3.6 for SQLi/XSS/LFI/RFI and other Vulns 	|
+| [V3n0m Scanner](https://github.com/v3n0m-Scanner/V3n0M-Scanner) 	| Offensive Security Framework for Vulnerability Scanning & Pentesting 	|
 | [golismero](https://github.com/golismero/golismero) 	| The Web Knife 	|
 | [sqliv](https://github.com/Hadesy2k/sqliv) 	| massive SQL injection vulnerability scanner 	|
 | [datasploit](https://datasploit.github.io/datasploit) 	| Performs OSINT on a domain / email / username / phone 	|
