@@ -1,6 +1,6 @@
 # This project is LIVE
 
-FROM python:3.6-slim
+FROM python:3.9-slim
 
 LABEL maintainer="Architect" \
       email="darkarch@riseup.net"
