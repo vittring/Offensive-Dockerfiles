@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.12.0a1-alpine
 
 LABEL name photon
 LABEL src "https://github.com/s0md3v/Photon"
