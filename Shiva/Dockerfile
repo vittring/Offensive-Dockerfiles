@@ -1,4 +1,4 @@
-FROM alpine:3.15.3
+FROM alpine:3.16.5
 
 RUN apk add --update python py-pip git
 
