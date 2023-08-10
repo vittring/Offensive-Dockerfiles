@@ -1,4 +1,4 @@
-FROM alpine:3.15.3
+FROM alpine:3.16.7
 
 
 RUN apk --update add --no-cache python3 py3-pip openssl ca-certificates
