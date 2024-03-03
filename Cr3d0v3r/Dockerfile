@@ -1,4 +1,4 @@
-FROM python:3-slim
+FROM python:3.13.0a3-slim
 
 RUN apt-get update && apt-get -y install git
 RUN git clone https://github.com/D4Vinci/Cr3dOv3r.git
