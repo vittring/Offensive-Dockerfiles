@@ -8,3 +8,4 @@ DateTime==4.3
 requests==2.26.0
 SocksiPy-branch==1.1
 httplib2==0.19.1
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
