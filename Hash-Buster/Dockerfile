@@ -1,4 +1,4 @@
-FROM python:3.12.0a1-alpine
+FROM python:3.14.0a1-alpine
 
 LABEL name CMSeeK
 LABEL src "https://github.com/s0md3v/Hash-Buster"
